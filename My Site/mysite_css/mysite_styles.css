@@ -1,16 +1,15 @@
-*{
-    /* box-sizing: border-box; */
+/* *{
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-div{
-    background-color: #E4F9F5;
-   
+} */
+body{
+    text-align: center;
+    margin: 0;
 }
 .top-container{
-    height: 200px;
-    width: 200px;
-    /* padding: 20px; */
+    background-color: #E4F9F5;
+    margin: 0 auto;
 }
 .middle-container{
     background-color: red;
@@ -21,4 +20,7 @@ div{
     background-color: blue;
     height: 200px;
     width: 200px
+}
+.bottom-cloud{
+    position: absolute;
 }
